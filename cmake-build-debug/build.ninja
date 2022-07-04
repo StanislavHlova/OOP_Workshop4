@@ -78,6 +78,30 @@ build CMakeFiles/workshop4.dir/NoisyDevice.cpp.obj: CXX_COMPILER__workshop4_Debu
   OBJECT_DIR = CMakeFiles\workshop4.dir
   OBJECT_FILE_DIR = CMakeFiles\workshop4.dir
 
+build CMakeFiles/workshop4.dir/PrintingDevice.cpp.obj: CXX_COMPILER__workshop4_Debug C$:/Users/STASON/CLionProjects/workshop4/PrintingDevice.cpp || cmake_object_order_depends_target_workshop4
+  DEP_FILE = CMakeFiles\workshop4.dir\PrintingDevice.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\workshop4.dir
+  OBJECT_FILE_DIR = CMakeFiles\workshop4.dir
+
+build CMakeFiles/workshop4.dir/Printer.cpp.obj: CXX_COMPILER__workshop4_Debug C$:/Users/STASON/CLionProjects/workshop4/Printer.cpp || cmake_object_order_depends_target_workshop4
+  DEP_FILE = CMakeFiles\workshop4.dir\Printer.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\workshop4.dir
+  OBJECT_FILE_DIR = CMakeFiles\workshop4.dir
+
+build CMakeFiles/workshop4.dir/CopyingDevice.cpp.obj: CXX_COMPILER__workshop4_Debug C$:/Users/STASON/CLionProjects/workshop4/CopyingDevice.cpp || cmake_object_order_depends_target_workshop4
+  DEP_FILE = CMakeFiles\workshop4.dir\CopyingDevice.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\workshop4.dir
+  OBJECT_FILE_DIR = CMakeFiles\workshop4.dir
+
+build CMakeFiles/workshop4.dir/PrinterWithGUI.cpp.obj: CXX_COMPILER__workshop4_Debug C$:/Users/STASON/CLionProjects/workshop4/PrinterWithGUI.cpp || cmake_object_order_depends_target_workshop4
+  DEP_FILE = CMakeFiles\workshop4.dir\PrinterWithGUI.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\workshop4.dir
+  OBJECT_FILE_DIR = CMakeFiles\workshop4.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target workshop4
@@ -86,7 +110,7 @@ build CMakeFiles/workshop4.dir/NoisyDevice.cpp.obj: CXX_COMPILER__workshop4_Debu
 #############################################
 # Link the executable workshop4.exe
 
-build workshop4.exe: CXX_EXECUTABLE_LINKER__workshop4_Debug CMakeFiles/workshop4.dir/main.cpp.obj CMakeFiles/workshop4.dir/PoweredDevice.cpp.obj CMakeFiles/workshop4.dir/NoisyDevice.cpp.obj
+build workshop4.exe: CXX_EXECUTABLE_LINKER__workshop4_Debug CMakeFiles/workshop4.dir/main.cpp.obj CMakeFiles/workshop4.dir/PoweredDevice.cpp.obj CMakeFiles/workshop4.dir/NoisyDevice.cpp.obj CMakeFiles/workshop4.dir/PrintingDevice.cpp.obj CMakeFiles/workshop4.dir/Printer.cpp.obj CMakeFiles/workshop4.dir/CopyingDevice.cpp.obj CMakeFiles/workshop4.dir/PrinterWithGUI.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\workshop4.dir

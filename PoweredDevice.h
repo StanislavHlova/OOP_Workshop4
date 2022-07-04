@@ -7,7 +7,14 @@
 
 
 class PoweredDevice {
-
+private:
+    double voltage;
+    double ampers;
+    double frequency;
+public:
+    virtual void turnOn();
+    virtual void turnOff();
+    virtual bool isTurned();
 };
 
 

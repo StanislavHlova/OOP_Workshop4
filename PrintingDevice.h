@@ -4,10 +4,17 @@
 
 #ifndef WORKSHOP4_PRINTINGDEVICE_H
 #define WORKSHOP4_PRINTINGDEVICE_H
-
-
-class PrintingDevice {
-
+#include "PoweredDevice.h"
+#include "NoisyDevice.h"
+#include "string"
+using namespace std;
+class PrintingDevice: public PoweredDevice, public NoisyDevice{
+private:
+    string font;
+    double sizeOfFont;
+    string color;
+public:
+    virtual void printText(string text);
 };
 
 

@@ -7,7 +7,12 @@
 
 
 class NoisyDevice {
-
+private:
+    double frequencyOfNoise;
+    double volumeOfNoise;
+    double amplitudeOfNoise;
+public:
+    virtual void makeNoise();
 };
 
 

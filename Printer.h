@@ -4,10 +4,15 @@
 
 #ifndef WORKSHOP4_PRINTER_H
 #define WORKSHOP4_PRINTER_H
+#include "string"
+#include "PrintingDevice.h"
 
-
-class Printer {
-
+using namespace std;
+class Printer:public PrintingDevice {
+private:
+    double weight;
+    double color;
+    string manufacturer;
 };
 
 

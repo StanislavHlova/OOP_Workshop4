@@ -7,7 +7,12 @@
 
 
 class CopyingDevice {
-
+private:
+    double quality;
+    double speed;
+    double maxSizeOfPaper;
+public:
+    void copyText();
 };
 
 
